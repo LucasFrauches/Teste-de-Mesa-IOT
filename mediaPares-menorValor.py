@@ -7,7 +7,7 @@ contador_pares = 0
 a = None
 
 # entrada
-while a != 0:
+while a < 0:
     a = int(input("Digite um valor inteiro (digite 0 para encerrar): "))
     
 #processamento
