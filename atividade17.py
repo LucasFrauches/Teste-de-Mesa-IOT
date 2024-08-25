@@ -1,5 +1,5 @@
 def main():
-  #declaração de variáveis
+#processamento
   
   with open("dadosEntrada.txt", "r") as a:
     idade = [int(x) for x in a.readlines()]
@@ -12,7 +12,8 @@ def main():
       if idade[j] > idade[j+1] :
         
         idade[j], idade[j+1] = idade[j+1], idade[j]
-        
+  
+#saída      
   print(f'{idade}')
 
 if __name__ == ("__main__"):
